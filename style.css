@@ -1,0 +1,79 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Bebas Neue", sans-serif;
+}
+
+.caixa-maior {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    color: #f3f736;
+    font-size: 100px;
+    text-align: center;
+   
+}
+
+h2 {
+    color:#f3f736 ;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+input {
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: gray;
+    opacity: 0.9;
+}
+
+input:hover {
+background-color: rgb(206, 194, 194);
+
+
+}
+
+input::placeholder {
+    color: black;
+
+}
+
+.button-sortear {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgba(95, 247, 25, 0.89);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px black;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(141, 238, 129);
+
+}
+
